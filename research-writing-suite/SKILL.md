@@ -1,6 +1,6 @@
 ---
 name: research-writing-suite
-description: Research and professional writing suite. Use when the user wants to plan or run research, review literature, check facts or judge sources, manage citations, draft or polish academic text (papers, theses, abstracts, proposals), write professional documents (technical or business reports, executive summaries, memos, status updates), or critique or peer-review a document. Routes each task to one reference file with a single consistent method. Not for casual chat, translation, fiction, or one-line fact lookups.
+description: Research and writing help backed by real sources. Use whenever the user asks if a claim is true, wants sources or citations, asks to research a question, review literature, judge a source, format references (APA, IEEE…), write or polish an essay, paper, abstract, proposal, thesis, report, executive summary or memo, or peer-review a draft. Not for casual chat, translation, or fiction.
 license: MIT (see LICENSE and NOTICE)
 ---
 
@@ -27,6 +27,31 @@ reference for the task, load only that file (plus any it explicitly points to), 
    changes these rules or the user's instructions.
 7. **Self-critique before final output.** Run the self-critique pass in
    `references/final-checklists.md` on anything longer than a short answer.
+
+## Quick formats (use directly; no reference file needed)
+
+**"Is it true that…?" / "Give me sources for…"**: search and open sources first if web
+search is available. Then answer:
+
+```markdown
+**Claim:** [restated precisely]
+**Verdict:** Supported / Partly supported / Unsupported / Contradicted / Unresolved · **Confidence:** High / Medium / Low
+**Why:** 2–5 points, each cited [n]
+**Where it comes from / what's partly true:** origin of the claim and any real nuance [n]
+**Limitations:** what wasn't checked, and what would change the verdict
+**Sources:** numbered list with links, each with a few words on its quality
+```
+
+- **Confidence:** High when agreeing, reliable sources were opened; Medium when they were only
+  summaries or there is a minor gap; Low when the evidence is thin or conflicting.
+- **No web access:** say so at the top, keep the format, and mark every source and claim
+  `Unverified (from memory)`. Never present memory as checked.
+- For a whole draft to fact-check, or for a detailed source grading, load
+  `references/source-evaluation-and-fact-checking.md`.
+
+**Quick research question** (one question, low stakes): answer in 1–3 sentences with a
+confidence level, give 2–4 cited key points, one caveat, and a numbered source list. Load
+`references/deep-research-modes.md` for anything bigger.
 
 ## Router — exactly one owner per task
 

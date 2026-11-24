@@ -39,14 +39,8 @@ One process for every verification task:
 R1/R2 claims, *standard* for R3 claims, *deep* for R3 claims on high-stakes or contested topics.
 Don't switch owners. The verdict format stays the one in this file.
 
-**Single-claim answer format** (e.g., "Is it true that…?"):
-```markdown
-**Claim:** [restated precisely]
-**Verdict:** Supported / Partly supported / Unsupported / Contradicted / Unresolved · **Confidence:** High/Medium/Low
-**Why:** 2–4 sentences with citations [n], including where the claim came from, if traceable
-**Context or nuance:** what makes it partly true or misleading
-**Sources:** numbered list, with tier
-```
+**Single-claim answers** ("Is it true that…?") use the quick format in `SKILL.md`. This
+file's definitions of verdict, confidence, and tiers apply to it.
 
 ## 2. Source tiers (T1–T5)
 
