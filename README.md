@@ -7,6 +7,12 @@ or deep research, reviews literature, checks facts and grades sources, formats c
 drafts academic text and professional reports, polishes writing, and critiques drafts.
 Everything follows one consistent method, so the parts never contradict each other.
 
+## ▶️ 30-second setup video
+
+https://github.com/user-attachments/assets/33f5921e-0cc1-4f1c-92f4-dea6893de701
+
+<sub>Can't play it? [Download the MP4](media/how-to-use.mp4) or view the [GIF version](media/how-to-use.gif). The screens in the video are simplified illustrations, so your Claude menus may look slightly different.</sub>
+
 ## ⬇️ Get it (students: start here)
 
 1. Download **[`research-writing-suite.zip`](../../releases/latest/download/research-writing-suite.zip)**
