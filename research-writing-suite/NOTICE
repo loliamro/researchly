@@ -1,0 +1,135 @@
+research-writing-suite
+Copyright (c) 2026 loliamro and contributors
+Licensed under the MIT License (see LICENSE).
+
+This skill is an original synthesis. Its text was written fresh for this suite; methods,
+structures, and checklists were adapted (paraphrased, merged, and modified) from the open-source
+projects below. Changes were made to all adapted material. No upstream scripts or code are
+included. Listing here does not imply endorsement by any upstream author.
+
+Upstream commits reviewed: November 2026 (short hashes in brackets).
+
+======================================================================
+ADAPTED MATERIAL (license permits redistribution and modification)
+======================================================================
+
+1. B143KC47/deep-research-skill [533dc7d]
+   https://github.com/B143KC47/deep-research-skill
+   License: MIT. Copyright (c) 2026 Deep Research contributors
+   Used: effort levels, research loop, hop definition, stop rules, source-quality score and
+   independence/freshness concepts, report template, counterevidence checklist.
+   -> deep-research-modes.md, source-evaluation-and-fact-checking.md
+
+2. 199-biotechnologies/claude-deep-research-skill [f2f2c0f]
+   https://github.com/199-biotechnologies/claude-deep-research-skill
+   License: MIT (as stated in its README; no LICENSE file in the repository).
+   Used: mode phases, critique phase with red-team personas and gap loop-back, anti-hallucination
+   and attribution rules, precision-writing examples, bibliography completeness rules.
+   -> deep-research-modes.md, final-checklists.md
+
+3. K-Dense-AI/claude-scientific-skills [c21d13b]
+   https://github.com/K-Dense-AI/claude-scientific-skills
+   License: MIT. Copyright (c) 2025 K-Dense Inc.
+   Used (skills: scientific-writing, literature-review, citation-management, peer-review,
+   scientific-critical-thinking): no-fabrication list, evidence binding, review workflow and
+   PRISMA record/report/study distinctions, comment structure (location/observation/criterion/
+   action), appraisal workflow, citation verification practices.
+   Not used: all scripts, API integrations, and the "Citing Scientific Agent Skills" sections.
+   -> literature-review.md, peer-review-and-critique.md, citations.md, academic-writing.md
+
+4. K-Dense-AI/claude-scientific-writer [9820740]
+   https://github.com/K-Dense-AI/claude-scientific-writer
+   License: MIT. Copyright (c) 2025-2026 K-Dense Inc.
+   Used (skill: research-grants): proposal components and common proposal mistakes.
+   Duplicate copies of the five skills in item 3 were skipped in favour of item 3.
+   -> academic-writing.md
+
+5. David-Saeteros/claude-skills [18f912c]
+   https://github.com/David-Saeteros/claude-skills
+   License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Copyright (c) 2026 David Saeteros
+   Used (skills: academic-writing, research_review): flag-first editing, edit issue scan,
+   section-by-section drafting guides, reviewer-response triage and phrasing, thesis change plan.
+   Changes: rewritten, generalised beyond the original psychology/NLP domain, merged with other sources.
+   -> editing-and-polish.md, academic-writing.md, peer-review-and-critique.md
+
+6. lnilya/effortless-academic-skills [5ddc0bf]
+   https://github.com/lnilya/effortless-academic-skills
+   License: MIT. Copyright (c) 2026 Ilya Shabanov
+   Used (skills: ea-academic-writer, ea-atomic-sentences, ea-intro-planner, ea-results-analyser):
+   atomic-sentence paragraph method, paragraph criteria, citation-claim extraction, introduction
+   functions, topic-sentence guidance.
+   -> academic-writing.md, literature-review.md
+
+7. jamditis/claude-skills-journalism [a6383bd]
+   https://github.com/jamditis/claude-skills-journalism
+   License: MIT. Copyright (c) 2025 Joe Amditis
+   Used (skills: fact-check-workflow, source-verification): SIFT, claim extraction and
+   prioritisation, evidence types, verdict scale, statistics/quote/document checks, right of reply.
+   -> source-evaluation-and-fact-checking.md
+
+8. nimbalyst/skills [15c0bff]
+   https://github.com/nimbalyst/skills
+   License: MIT. Copyright (c) 2026 Nimbalyst
+   Used (skills: strategy-memo, status-updater): memo and status-update structures and practices.
+   -> professional-reports.md
+
+9. sickn33/agentic-awesome-skills [166f581]
+   https://github.com/sickn33/agentic-awesome-skills
+   License: MIT (code) and CC BY 4.0 (non-code content). Copyright (c) 2026 Antigravity User
+   Used (skill: go-in-depth, SKILL.md text only): search-angle decomposition, adversarial
+   verification, and evidence-independence cautions. The workflow script was not used.
+   -> deep-research-modes.md
+
+======================================================================
+IDEAS ONLY (no text reproduced; credited as influences)
+======================================================================
+
+10. Imbad0202/academic-research-skills [df5b4ca]
+    https://github.com/Imbad0202/academic-research-skills
+    License: CC BY-NC 4.0. Copyright (c) 2026 Cheng-I Wu
+    Influence: FINER question scoring, Socratic scoping, the WHY/HOW/WHAT three-way paper scan,
+    devil's-advocate review, and named-method-weakness rules. Only general ideas and public
+    frameworks were used and expressed in new words, so no CC BY-NC text or adaptation is
+    included. Anyone wanting the original material must follow its non-commercial license.
+
+11. lyndonkl/claude [4acc337]
+    https://github.com/lyndonkl/claude
+    License: no standard license file ("Open source; use freely with Claude Code").
+    Influence: research-claim-map (claim triangulation and confidence rating). No text reproduced.
+
+======================================================================
+REVIEWED, NOT USED
+======================================================================
+
+12. inbharatai/claude-skills [02077f8], https://github.com/inbharatai/claude-skills (MIT)
+    report-builder and latex-writer contain only generic placeholder text; nothing to adapt.
+13. Shubhamsaboo/awesome-llm-apps [14c5f8f], https://github.com/Shubhamsaboo/awesome-llm-apps (Apache-2.0)
+    The requested fact-checker, deep-research, and academic-researcher agent skills were not
+    present at the reviewed commit.
+14. o0000-code/awesome-academic-skills [5975c4e], https://github.com/o0000-code/awesome-academic-skills (CC0)
+    Used as an index to find gaps (writing-quality/de-AI, reviewer response, LaTeX citations).
+15. anthropics/skills [e4bb5d9], https://github.com/anthropics/skills
+    Read for skill structure and best practices only (frontmatter, progressive disclosure,
+    reference files). No content copied.
+
+======================================================================
+MIT LICENSE TEXT (applies to items 1-4, 6-9 above)
+======================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
