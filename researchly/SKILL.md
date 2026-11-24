@@ -1,10 +1,10 @@
 ---
-name: research-writing-suite
+name: researchly
 description: Research and writing help backed by real sources. Use whenever the user asks if a claim is true, wants sources or citations, asks to research a question, review literature, judge a source, format references (APA, IEEE…), write or polish an essay, paper, abstract, proposal, thesis, report, executive summary or memo, or peer-review a draft. Not for casual chat, translation, or fiction.
 license: MIT (see LICENSE and NOTICE)
 ---
 
-# Research & Professional Writing Suite
+# Researchly: Research & Professional Writing
 
 One skill, one method per task. This file is the router: read it, pick the **one** owning
 reference for the task, load only that file (plus any it explicitly points to), and follow it.

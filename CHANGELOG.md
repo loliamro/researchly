@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.0 (2026-11-25)
+- Renamed to **Researchly**. The skill id is now `researchly`, the download is `researchly.zip`,
+  and the repository is `researchly`. If you installed `research-writing-suite`, remove it, then
+  upload `researchly.zip`.
+- Copyright holder set to Amr Jallad.
+- Setup video updated with the new name.
+- No changes to how the skill behaves.
+
 ## v1.0.1 (2026-11-25)
 - Shorter, trigger-focused skill description, so Claude picks the skill up on its own more often
   ("is it true…", "give me sources", essays, reports…) and the full text shows on the Skills page.

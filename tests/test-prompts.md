@@ -31,7 +31,7 @@ found, plus the fix applied. Re-run these after any change to the suite.
 
 ## Structure tests (run on the ZIP)
 
-- The ZIP root contains exactly one folder, `research-writing-suite/`, with `SKILL.md` directly inside.
+- The ZIP root contains exactly one folder, `researchly/`, with `SKILL.md` directly inside.
 - The `SKILL.md` frontmatter has `name` = folder name (lowercase, hyphens, ≤ 64 chars) and a `description` ≤ 1024 chars.
 - Every `references/…` path mentioned in `SKILL.md` exists.
 - No executable files (`.py`, `.js`, `.sh`, `.ps1`, `.exe`) are in the ZIP.

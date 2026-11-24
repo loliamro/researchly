@@ -1,4 +1,4 @@
-# Research & Professional Writing Suite: a Claude skill
+# Researchly: a research & writing skill for Claude
 
 **One file. One upload. Research and writing help that cites real sources.**
 
@@ -15,16 +15,19 @@ https://github.com/user-attachments/assets/33f5921e-0cc1-4f1c-92f4-dea6893de701
 
 ## ⬇️ Get it (students: start here)
 
-1. Download **[`research-writing-suite.zip`](../../releases/latest/download/research-writing-suite.zip)**
+1. Download **[`researchly.zip`](../../releases/latest/download/researchly.zip)**
    from the [latest release](../../releases/latest). Don't unzip it.
 2. In **Claude** (claude.ai or the desktop app): open **Settings → Capabilities**, make sure
    code execution / skills are enabled, then under **Skills** choose **Upload skill** and pick the ZIP.
    (Menu names can differ slightly between Claude versions. Look for "Skills".)
-3. Start a new chat and ask normally, for example *"Help me write a literature review on…"*.
-   Claude loads the skill automatically when it fits.
+3. Turn on **web search** in your chat so it can open and cite real sources.
+4. Start a new chat and ask normally, for example *"Help me write a literature review on…"*.
+   Claude loads the skill automatically when it fits. If it doesn't, start with *"Use the researchly skill."*
+
+> **Installed the old version (`research-writing-suite`)?** Remove it from your Skills list first, then upload `researchly.zip`.
 
 **Claude Code users:** unzip into your skills folder so you get
-`~/.claude/skills/research-writing-suite/SKILL.md` (Windows: `%USERPROFILE%\.claude\skills\…`).
+`~/.claude/skills/researchly/SKILL.md` (Windows: `%USERPROFILE%\.claude\skills\…`).
 
 ## What you can ask
 
@@ -51,7 +54,7 @@ https://github.com/user-attachments/assets/33f5921e-0cc1-4f1c-92f4-dea6893de701
 ## How it's built
 
 ```
-research-writing-suite/          ← the skill (this folder is the ZIP root)
+researchly/          ← the skill (this folder is the ZIP root)
 ├── SKILL.md                     ← short router: picks ONE owner file per task
 ├── LICENSE · NOTICE
 └── references/                  ← loaded only when needed
@@ -75,17 +78,17 @@ Each task type has exactly one owner file, with "use when / don't use when" rule
 
 From the repository root (Windows 10+, macOS, or Linux):
 ```powershell
-tar -a -c -f research-writing-suite.zip research-writing-suite
+tar -a -c -f researchly.zip researchly
 ```
-On macOS or Linux you can also use `zip -r research-writing-suite.zip research-writing-suite`. Avoid
+On macOS or Linux you can also use `zip -r researchly.zip researchly`. Avoid
 Windows PowerShell 5.1's `Compress-Archive`, which writes backslash paths that some uploaders reject.
-The ZIP must contain the `research-writing-suite/` folder at its root, with `SKILL.md` inside it.
+The ZIP must contain the `researchly/` folder at its root, with `SKILL.md` inside it.
 
 ## Credits and licenses
 
-This suite is **MIT-licensed** (see [`LICENSE`](research-writing-suite/LICENSE)). It is an original
+This suite is **MIT-licensed** (see [`LICENSE`](researchly/LICENSE)). It is an original
 synthesis that adapts methods from the open-source projects below. Full attributions, licenses,
-and what was taken from each are in [`NOTICE`](research-writing-suite/NOTICE).
+and what was taken from each are in [`NOTICE`](researchly/NOTICE).
 
 - No upstream text from CC BY-NC or unlicensed sources is included: those were used as ideas only, and credited.
 - No upstream scripts or code are included.
